@@ -41,7 +41,7 @@ body {
 }
 p,
 h1,
-h1,
+h2,
 h3,
 h4,
 h5,
@@ -235,13 +235,17 @@ ul {
   color: var(--footer-tel-color);
 }
 /* button potfolio*/
+.page-header {
+  margin-bottom: 94px;
+}
+.projects {
+  padding-bottom: 94px;
+}
 .portfolio-list {
+  margin-bottom: 50px;
   color: var(--title-text-color);
 }
 .portfolio-btn {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   background-color: #f5f4fa;
   border: 0;
   font-family: inherit;
@@ -255,6 +259,9 @@ ul {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
   background-color: var(--background-btn-color);
   color: var(--primary-btn-color);
 }
@@ -266,6 +273,8 @@ ul {
   border-radius: 4px;
 }
 .card-subtitle {
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -273,10 +282,15 @@ ul {
   color: var(--title-text-color);
 }
 .card-text {
+  padding-bottom: 20px;
+
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+.card-link {
+  margin-bottom: 20px;
 }
 /*footer*/
 .footer-web {
