@@ -208,8 +208,10 @@ ul {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.team-link {
+  margin-bottom: 30px;
+}
 .title-name {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;
