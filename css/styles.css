@@ -53,6 +53,11 @@ ul {
   margin: 0;
   padding-left: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
   margin-left: auto;
@@ -386,7 +391,7 @@ ul {
 }
 
 .page-card {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 /*footer*/
 .footer-web {
