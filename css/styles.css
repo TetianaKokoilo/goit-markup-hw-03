@@ -268,7 +268,7 @@ ul {
 .photo-item:last-child {
   margin: 0;
 }
-. .team-link {
+.team-link {
   margin-bottom: 30px;
 }
 .title-name {
@@ -282,7 +282,7 @@ ul {
   color: var(--title-text-color);
 }
 .title-work {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
