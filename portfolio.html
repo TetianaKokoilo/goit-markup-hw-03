@@ -47,9 +47,9 @@
     </header>
     <main>
       <section class="projects">
-        <div class="container">
+        <div class="container page-container">
           <h1 class="hidden-title visually-hidden">Портфолио</h1>
-          <ul class="portfolio-list list">
+          <ul class="portfolio-list list page-portfolio">
             <li class="button-item">
               <button type="button" class="portfolio-btn primary pointer">Все</button>
             </li>
@@ -75,13 +75,23 @@
                 height="294"
                 class="card-link"
               />
-              <h2 class="card-subtitle">Технокряк</h2>
-              <p class="card-text">Веб-сайт</p>
+              <div class="page-card">
+                <h2 class="card-subtitle">Технокряк</h2>
+                <p class="card-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="card-item">
-              <img src="./images/portfolio-img-2.jpg" alt="poster" width="370" height="294" />
-              <h2 class="card-subtitle">Постер <span lang="en">Orlean vs Golden Star</span></h2>
-              <p class="card-text">Дизайн</p>
+              <img
+                src="./images/portfolio-img-2.jpg"
+                alt="poster"
+                width="370"
+                height="294"
+                class="card-link"
+              />
+              <div class="page-card">
+                <h2 class="card-subtitle">Постер <span lang="en">Orlean vs Golden Star</span></h2>
+                <p class="card-text">Дизайн</p>
+              </div>
             </li>
             <li class="card-item">
               <img
@@ -91,8 +101,10 @@
                 height="294"
                 class="card-link"
               />
-              <h2 class="card-subtitle">Ресторан <span lang="en">Seafood</span></h2>
-              <p class="card-text">Приложение</p>
+              <div class="page-card">
+                <h2 class="card-subtitle">Ресторан <span lang="en">Seafood</span></h2>
+                <p class="card-text">Приложение</p>
+              </div>
             </li>
             <li class="card-item">
               <img
@@ -102,8 +114,10 @@
                 height="294"
                 class="card-link"
               />
-              <h2 class="card-subtitle">Проект <span lang="en">Prime</span></h2>
-              <p class="card-text">Маркетинг</p>
+              <div class="page-card">
+                <h2 class="card-subtitle">Проект <span lang="en">Prime</span></h2>
+                <p class="card-text">Маркетинг</p>
+              </div>
             </li>
             <li class="card-item">
               <img
@@ -113,8 +127,10 @@
                 height="294"
                 class="card-link"
               />
-              <h2 class="card-subtitle">Проект <span lang="en">Boxes</span></h2>
-              <p class="card-text">Приложение</p>
+              <div class="page-card">
+                <h2 class="card-subtitle">Проект <span lang="en">Boxes</span></h2>
+                <p class="card-text">Приложение</p>
+              </div>
             </li>
             <li class="card-item">
               <img
@@ -124,8 +140,10 @@
                 height="294"
                 class="card-link"
               />
-              <h2 lang="en" class="card-subtitle">Inspiration has no Borders</h2>
-              <p class="card-text">Веб-сайт</p>
+              <div class="page-card">
+                <h2 lang="en" class="card-subtitle">Inspiration has no Borders</h2>
+                <p class="card-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="card-item">
               <img
@@ -135,8 +153,10 @@
                 height="294"
                 class="card-link"
               />
-              <h2 class="card-subtitle">Издание <span lang="en">Limited Edition</span></h2>
-              <p class="card-text">Дизайн</p>
+              <div class="page-card">
+                <h2 class="card-subtitle">Издание <span lang="en">Limited Edition</span></h2>
+                <p class="card-text">Дизайн</p>
+              </div>
             </li>
             <li class="card-item">
               <img
@@ -146,8 +166,10 @@
                 height="294"
                 class="card-link"
               />
-              <h2 class="card-subtitle">Проект <span lang="en">LAB</span></h2>
-              <p class="card-text">Маркетинг</p>
+              <div class="page-card">
+                <h2 class="card-subtitle">Проект <span lang="en">LAB</span></h2>
+                <p class="card-text">Маркетинг</p>
+              </div>
             </li>
             <li class="card-item">
               <img
@@ -157,8 +179,10 @@
                 height="294"
                 class="card-link"
               />
-              <h2 lang="en" class="card-subtitle">Growing Business</h2>
-              <p class="card-text">Приложение</p>
+              <div class="page-card">
+                <h2 lang="en" class="card-subtitle">Growing Business</h2>
+                <p class="card-text">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -166,18 +190,24 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" lang="en" class="footer-web link"
-          >Web<span class="footer-studio">Studio</span>
-        </a>
-        <address class="foooter-addresss">
-          <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
-          <ul class="footer-list list">
-            <li>
-              <a href="mailto:info@example.com" class="footer-email link">info@example.com</a>
-            </li>
-            <li><a href="tel:+380991111111" class="footer-tel link">+38 099 111 11 11</a></li>
-          </ul>
-        </address>
+        <div class="page-logo">
+          <a href="./index.html" lang="en" class="footer-web link"
+            >Web<span class="footer-studio">Studio</span>
+          </a>
+        </div>
+        <div class="main-address">
+          <address class="footer-addresss">
+            <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="footer-list list">
+              <li class="footer-item">
+                <a href="mailto:info@example.com" class="footer-email link">info@example.com</a>
+              </li>
+              <li class="footer-item">
+                <a href="tel:+380991111111" class="footer-tel link">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
