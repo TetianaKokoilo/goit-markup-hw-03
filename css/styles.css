@@ -37,6 +37,7 @@ body {
   overflow: hidden;
 }
 .header {
+  border: 1px solid #ececec;
   background-color: var(--background-color);
 }
 p,
@@ -297,7 +298,8 @@ ul {
   color: var(--footer-tel-color);
 }
 /* button potfolio*/
-.page-header {
+
+.page-hidden {
   margin-bottom: 94px;
 }
 .projects {
