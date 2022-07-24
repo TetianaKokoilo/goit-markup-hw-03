@@ -52,6 +52,7 @@ ul {
   margin: 0;
   padding-left: 0;
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -60,6 +61,7 @@ ul {
   padding-right: 15px;
   outline: 2px solid tomato;
 }
+
 .header-web {
   font-family: 'Raleway';
   font-style: normal;
@@ -78,8 +80,24 @@ ul {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.page-header {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  margin-left: 93px;
+}
+.header-list .list-item {
+  margin-right: 50px;
+}
+.header-list .list-item:last-child {
+  margin-right: 0;
+}
 .header-item {
+  display: block;
   margin-left: auto;
+  padding: 32px 0;
 
   font-weight: 500;
   font-size: 14px;
@@ -101,6 +119,13 @@ ul {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
+}
+.header-nav {
+  display: flex;
+  margin-left: auto;
+}
+.header-nav .nav + .nav {
+  margin-left: 50px;
 }
 
 .header-email,
