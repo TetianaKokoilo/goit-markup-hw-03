@@ -279,8 +279,9 @@ img {
 .photo-item:last-child {
   margin: 0;
 }
-.team-link {
-  margin-bottom: 30px;
+
+.worker {
+  padding: 30px 0;
 }
 .title-name {
   margin-bottom: 10px;
@@ -293,7 +294,6 @@ img {
   color: var(--title-text-color);
 }
 .title-work {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
