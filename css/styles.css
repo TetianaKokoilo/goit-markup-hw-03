@@ -10,6 +10,8 @@
   --main-title-color: #ffffff;
   --section-team-color: #f5f4fa;
   --footer-tel-color: #d9d9d9;
+  --border-portfolio-color: #eeeeee;
+  --border-header-color: #ececec;
 }
 body {
   background-color: var(--background-color);
@@ -37,7 +39,7 @@ body {
   overflow: hidden;
 }
 .header {
-  border: 1px solid #ececec;
+  border: 1px solid var(--border-header-color);
   background-color: var(--background-color);
 }
 p,
@@ -326,10 +328,9 @@ img {
 
 .portfolio-btn {
   padding: 6px 22px;
-  background-color: #f5f4fa;
+  background-color: var(--section-team-color);
   border: 0;
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -396,8 +397,8 @@ img {
 
 .page-card {
   padding: 20px 24px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  background: var(--primary-btn-color);
+  border: 1px solid var(--border-portfolio-color);
 }
 /*footer*/
 .footer-web {
