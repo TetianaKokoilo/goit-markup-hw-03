@@ -12,6 +12,7 @@
   --footer-tel-color: #d9d9d9;
   --border-portfolio-color: #eeeeee;
   --border-header-color: #ececec;
+  --outline-color: tomato;
 }
 body {
   background-color: var(--background-color);
@@ -67,7 +68,7 @@ img {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  outline: 2px solid var(--outline-color);
 }
 
 .header-web {
