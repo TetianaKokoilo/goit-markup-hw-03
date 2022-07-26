@@ -162,6 +162,7 @@ img {
 }
 
 .footer {
+  padding: 60px 0;
   background-color: var(--background-main-color);
 }
 
@@ -400,6 +401,9 @@ img {
 }
 /*footer*/
 .footer-web {
+  display: block;
+  margin-bottom: 20px;
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -418,12 +422,7 @@ img {
   color: var(--main-title-color);
 }
 
-.page-logo {
-  padding-top: 60px;
-  margin-bottom: 20px;
-}
-
-.main-address {
+.foooter-address {
   display: inline-block;
   width: 330px;
   padding-bottom: 60px;
@@ -446,4 +445,7 @@ img {
 }
 .footer-item {
   margin-bottom: 9px;
+}
+.footer-item:last-child {
+  margin-bottom: 0;
 }
