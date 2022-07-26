@@ -272,7 +272,6 @@ img {
 }
 .photo {
   display: flex;
-  flex-wrap: wrap;
 }
 .photo-item {
   margin-right: 30px;
