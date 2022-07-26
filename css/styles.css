@@ -145,6 +145,8 @@ img {
 
 .header-email,
 .header-tel {
+  padding: 32px 0;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
