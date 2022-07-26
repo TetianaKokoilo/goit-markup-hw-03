@@ -251,12 +251,12 @@ img {
   color: var(--primary-text-color);
 }
 .section-team {
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--section-team-color);
 }
 
 .title {
-  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
 
