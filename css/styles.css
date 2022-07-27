@@ -313,10 +313,8 @@ img {
 }
 /* button potfolio*/
 
-.page-hidden {
-  margin-bottom: 94px;
-}
 .projects {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
